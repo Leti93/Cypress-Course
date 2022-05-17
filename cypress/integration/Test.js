@@ -66,5 +66,5 @@ describe('Mi primer test en cypress',()=>{
       
       })
 
-      hola
+    
 })
