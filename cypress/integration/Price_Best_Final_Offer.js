@@ -9,7 +9,7 @@ describe('Mi primer test en cypress',()=>{
     it('credentiales IBM',()=>{
         cy.get('#credentialSignin').click()
         cy.contains('Sign in with your w3id credentials')
-        cy.get('#user-name-input').should('be.visible').should('be.enabled').type('leticia.martinez.romero@ibm.com').tab().type('Luisalberto_2022')
+        cy.get('#user-name-input').should('be.visible').should('be.enabled').type('leticia.martinez.romero@ibm.com').tab().type('Luisalberto_2023')
         cy.get('#login-button').click({force: true})
         cy.get('.bx--modal-close__icon').click()
         cy.title('IBM Release Builder Kit')
@@ -17,7 +17,7 @@ describe('Mi primer test en cypress',()=>{
     it.only('Best & Final Offer',()=>{
         cy.get('#credentialSignin').click()
         cy.contains('Sign in with your w3id credentials')
-        cy.get('#user-name-input').should('be.visible').should('be.enabled').type('leticia.martinez.romero@ibm.com').tab().type('Luisalberto_2022')
+        cy.get('#user-name-input').should('be.visible').should('be.enabled').type('leticia.martinez.romero@ibm.com').tab().type('Luisalberto_2023')
         cy.get('#login-button').click({force: true})
         cy.get('.bx--modal-close__icon').click()
         cy.title('IBM Release Builder Kit')
